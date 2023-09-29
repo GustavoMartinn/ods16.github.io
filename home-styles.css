@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+}
+
+.div-h1 {
+  background-color: var(--celestial-blue);
+}
+
+h1 {
+  margin: 0rem 6rem;
+  padding: 12px 0;
+  color: var(--white);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content {
+  padding: 0rem 6rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  line-height: 30px;
+  margin: 40px 0px;
+}
+
+#objetivos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a:hover {
+  color: var(--carolina-blue);
+}
+
+#ods16 {
+  color: var(--bice-blue);
+}
+
+#image-ods {
+  width: 700px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 10px;
+}
