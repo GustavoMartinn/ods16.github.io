@@ -1,0 +1,15 @@
+:root {
+  --white: #fefefe;
+  --bice-blue: #136a9f;
+  --celestial-blue: #5996bb;
+  --bice-blue-2: #1669a0;
+  --carolina-blue: #7bacc9;
+  --carolina-blue-2: #a6c5d6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
