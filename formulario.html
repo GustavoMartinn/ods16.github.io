@@ -29,6 +29,7 @@
           <ul>
             <li><a href="index.html">Ínicio</a></li>
             <li><a href="formulario.html" class="selected">Formulário</a></li>
+            <li><a href="list.html">Lista de contatos</a></li>
           </ul>
         </div>
       </nav>
@@ -84,7 +85,11 @@
           <label for="mensagem">Mensagem:</label>
           <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
-          <button type="submit">Enviar</button>
+          <div class="btns">
+            <button type="submit" id="btnEnviar">Enviar</button>
+            <button type="button" id="btnLimpar">Limpar</button>
+          </div>
+
         </form>
       </div>
     </main>
@@ -118,4 +123,5 @@
       </div>
     </footer>
   </body>
+  <script src="formulario.js"></script>
 </html>

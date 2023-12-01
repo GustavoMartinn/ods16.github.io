@@ -82,7 +82,14 @@ textarea:focus {
   max-width: 200px;
 }
 
-.form > button {
+.btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.btns > button {
   align-self: flex-end;
   width: 80px;
   height: 30px;
@@ -96,7 +103,7 @@ textarea:focus {
   transition: 0.5s;
 }
 
-.form > button:hover {
+.btns > button:hover {
   background-color: var(--celestial-blue);
   color: var(--white);
   cursor: pointer;
